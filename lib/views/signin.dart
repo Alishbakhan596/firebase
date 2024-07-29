@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:myfirebaseproject/views/about_screen.dart';
+import 'package:myfirebaseproject/views/home.dart';
 
 class SignInScreen extends StatelessWidget {
   SignInScreen({super.key});
@@ -44,7 +45,7 @@ class SignInScreen extends StatelessWidget {
             child: IconButton(
                 onPressed: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => AboutScreen()));
+                      MaterialPageRoute(builder: (context) => HomeScreen()));
                 },
                 icon: Icon(Icons.arrow_back_ios)),
           ),

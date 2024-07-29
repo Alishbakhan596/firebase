@@ -47,7 +47,7 @@ class SignupScreen extends StatelessWidget {
             child: IconButton(
                 onPressed: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => AboutScreen()));
+                      MaterialPageRoute(builder: (context) => HomeScreen()));
                 },
                 icon: Icon(Icons.arrow_back_ios)),
           ),
